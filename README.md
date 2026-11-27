@@ -1,39 +1,35 @@
-# HR Data Analysis using Python
+# HR Analytics | Employee Attrition & Workforce Insights
+
+A Python-based exploratory data analysis project examining employee attrition, satisfaction, compensation, and workforce patterns.
 
 ## Project Overview
-Analyzed employee data using Python to understand employee attrition, job satisfaction, salary distribution, department performance, and employee retention patterns.
+Explore workforce data and identify patterns that may help explain employee turnover and support data-informed HR discussions.
 
-## Dataset Information
-- Total Records: 14,999
-- Total Columns: 10
-- Departments: 10
-- Duplicate Records Identified: 3,008
+## Dataset
+- 14,999 records across 10 columns (as reported in the project analysis)
+- Duplicate records were identified during data quality checks; interpret results using the cleaned dataset.
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## Tools & Skills
+Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
 
-## Analysis Performed
-- Data Cleaning and Duplicate Removal
-- Employee Attrition Analysis
-- Salary and Department Analysis
-- Employee Satisfaction Analysis
-- Workload and Promotion Analysis
-- Data Visualization
+- Data inspection, cleaning, and duplicate handling
+- Exploratory analysis of attrition, salary, satisfaction, department, workload, promotions, and work accidents
+- Grouping, aggregation, and visualization
 
-## Key Insights
-- 3,571 employees left the company before duplicate removal.
-- Low-salary employees showed higher attrition counts.
-- Employees who left had lower average satisfaction levels.
-- Sales had the highest employee count.
-- Promotion history and work accidents were also analyzed.
+## Key Findings
+- 3,571 employees were recorded as having left before duplicate removal.
+- Lower-salary groups had higher attrition counts.
+- Employees who left had lower average satisfaction scores.
+- Sales had the largest employee count in the dataset.
+- Promotion history and work accidents were also explored.
 
-## Conclusion
-This project helped identify employee attrition patterns and understand how job satisfaction, salary, workload, and promotions relate to employee retention. It improved practical skills in data cleaning, exploratory data analysis, and visualization.
+> These are descriptive observations from this dataset, not proof of causation.
 
-## Author
-Jithesh D
+## Explore
+Review the notebook and project files for the analysis workflow and visualizations.
+
+## Potential Next Steps
+Compare attrition rates rather than counts, validate findings after deduplication, and investigate relationships with additional statistical methods.
+
+---
+Created by **Jithesh D** · [GitHub](https://github.com/jithesh127)
