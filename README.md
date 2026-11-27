@@ -3,14 +3,14 @@
 A Python-based exploratory data analysis project examining employee attrition, satisfaction, compensation, and workforce patterns.
 
 ## Project Overview
-Explore workforce data and identify patterns that may help explain employee turnover and support data-informed HR discussions.
+Explore workforce data and identify patterns that may help inform HR discussions and further analysis.
 
 ## Dataset
 - 14,999 records across 10 columns (as reported in the project analysis)
 - Duplicate records were identified during data quality checks; interpret results using the cleaned dataset.
 
-## Tools & Skills
-Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
+## Tools & Methods
+**Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook**
 
 - Data inspection, cleaning, and duplicate handling
 - Exploratory analysis of attrition, salary, satisfaction, department, workload, promotions, and work accidents
@@ -23,13 +23,15 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
 - Sales had the largest employee count in the dataset.
 - Promotion history and work accidents were also explored.
 
-> These are descriptive observations from this dataset, not proof of causation.
+> These are descriptive observations from this dataset, not proof of causation. Validate comparisons using attrition rates and the cleaned dataset.
 
-## Explore
-Review the notebook and project files for the analysis workflow and visualizations.
+## How to Explore
+Review the notebook and project files for the analysis workflow, data quality checks, and visualizations.
 
-## Potential Next Steps
-Compare attrition rates rather than counts, validate findings after deduplication, and investigate relationships with additional statistical methods.
+## Next Steps
+- Compare attrition rates rather than counts.
+- Recalculate findings after duplicate removal.
+- Investigate relationships with additional statistical methods.
 
 ---
 Created by **Jithesh D** · [GitHub](https://github.com/jithesh127)
