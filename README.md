@@ -1,37 +1,43 @@
 # HR Analytics | Employee Attrition & Workforce Insights
 
-A Python exploratory data analysis project investigating employee attrition, satisfaction, compensation, and workforce patterns.
+A Python-based exploratory data analysis project examining employee attrition, satisfaction, compensation, and workforce patterns. The goal is to turn raw HR records into clear, evidence-based observations.
 
-## Project Objectives
+## Project Goals
 - Understand workforce composition across departments and salary groups.
-- Explore how attrition relates to satisfaction and other recorded employee attributes.
-- Review data quality before interpreting results.
+- Explore how attrition varies with satisfaction and other recorded employee attributes.
+- Check data quality before interpreting workforce metrics.
+- Communicate patterns through summaries and visualizations.
 
-## Dataset
-- 14,999 records and 10 columns, as reported in the analysis.
-- Duplicate records were identified during data-quality checks; validate totals against the cleaned data before reuse.
+## Dataset & Data Quality
+- **14,999 records** and **10 columns**, as reported in the analysis.
+- Duplicate records were identified during data-quality checks.
+- **3,571 employees** were recorded as having left before duplicate removal.
 
-## Tools & Methods
+Always verify totals against the cleaned dataset before reusing the figures.
+
+## Tools & Techniques
 **Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook**
 
-Data inspection, cleaning, duplicate review, filtering, grouping, aggregation, and visualization.
+Data inspection, cleaning, duplicate review, filtering, grouping, aggregation, descriptive analysis, and visualization.
 
 ## Key Observations
-- 3,571 employees were recorded as having left before duplicate removal.
 - Lower-salary groups had higher attrition counts.
 - Employees who left had lower average satisfaction scores.
 - Sales had the largest employee count.
 - Promotion history and work accidents were also explored.
 
-> These are descriptive patterns, not evidence of causation. Counts can be affected by group size; compare cleaned-data attrition rates for a fairer assessment.
+These are descriptive observations, not evidence of causation. Group sizes can affect raw counts, so compare attrition rates as well as counts.
 
-## How to Explore
-Open the notebook(s) in this repository to follow the cleaning steps, analysis, and visualizations.
+## How to Run
+1. Clone or download this repository.
+2. Open the notebook in Jupyter Notebook or JupyterLab.
+3. Run the cells in order and review the cleaning steps, analysis, and charts.
+4. Confirm the cleaned-data figures before drawing conclusions.
 
-## Further Analysis
-- Recalculate metrics after duplicate handling.
-- Compare attrition rates by group, not counts alone.
-- Test whether observed relationships remain after controlling for other factors.
+## Possible Next Steps
+- Recalculate all metrics after duplicate handling.
+- Compare attrition rates across departments and salary groups.
+- Investigate relationships while accounting for other employee attributes.
 
 ---
-Created by **Jithesh D** · [GitHub](https://github.com/jithesh127)
+Created by **Jithesh D** · [GitHub Profile](https://github.com/jithesh127)
